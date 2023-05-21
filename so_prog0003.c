@@ -9,7 +9,7 @@
 #define HUNGRY 1                                        // Define o estado de fome
 #define EATING 2                                        // Define o estado de comer
 
-sem_t mutex = 1;                                        // Exclusão mútua para as regiões críticas
+sem_t mutex;                                            // Exclusão mútua para as regiões críticas
 sem_t sem[NUM_PHILOSOPHERS];                            // Um semáforo para cada filósofo
 int state[NUM_PHILOSOPHERS];                            // Estado de cada filósofo
 
