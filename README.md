@@ -3,6 +3,7 @@
 - [Sinais](./so_prog0004.c)
 - [Troca de mensagens](./so_prog0005.c)
 - [Pipes](./so_prog0006.c)
+- [FIFOs](./so_prog0007.c)
 
 ##### Concorrência e Sincronização
 - [Exclusão mútua](./so_prog0001.c)
